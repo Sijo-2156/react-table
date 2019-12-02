@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonAnchor displays a button anchor with an external link 1`] = `
+<a
+  className="btn"
+  href="http://www.google.com"
+  onClick={[Function]}
+  target="_blank"
+>
+  External
+</a>
+`;
+
+exports[`ButtonAnchor displays a button anchor with an internal link 1`] = `
+<Link
+  className="btn"
+  onClick={[Function]}
+  onlyActiveOnIndex={false}
+  style={Object {}}
+  to="/components/progress-bar"
+>
+  Internal
+</Link>
+`;

@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonConfirmation getCaretStyles get caret styles on the confirmation button when position left 1`] = `
+Object {
+  "left": "calc(15px)",
+}
+`;
+
+exports[`ButtonConfirmation getCaretStyles get caret styles on the confirmation button when position not passed and is not wide 1`] = `
+Object {
+  "left": "75px",
+}
+`;
+
+exports[`ButtonConfirmation getCaretStyles get caret styles on the confirmation button when position not passed and is wide 1`] = `
+Object {
+  "left": "95px",
+}
+`;
+
+exports[`ButtonConfirmation getCaretStyles get caret styles on the confirmation button when position right 1`] = `
+Object {
+  "right": "calc(27.5px)",
+}
+`;
+
+exports[`ButtonConfirmation getStyles get styles on the confirmation button when position left 1`] = `
+Object {
+  "left": "40px",
+}
+`;
+
+exports[`ButtonConfirmation getStyles get styles on the confirmation button when position not passed 1`] = `
+Object {
+  "left": "-5px",
+}
+`;
+
+exports[`ButtonConfirmation getStyles get styles on the confirmation button when position right 1`] = `
+Object {
+  "right": "40px",
+}
+`;
+
+exports[`ButtonConfirmation render displays confirmation button without prompt 1`] = `
+<ButtonConfirmation
+  prompt="Are you sure?"
+>
+  <div
+    className="confirmation-wrapper"
+  >
+    <Button
+      disabled={false}
+      onClick={[Function]}
+      prompt="Are you sure?"
+      type="button"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        <em>
+          Delete
+        </em>
+      </button>
+    </Button>
+    <div
+      className="confirmation-overlay"
+      style={
+        Object {
+          "left": "-0px",
+        }
+      }
+    >
+      <em
+        style={
+          Object {
+            "left": "75px",
+          }
+        }
+      />
+      <span
+        className="confirmation-text"
+      >
+        Are you sure?
+      </span>
+      <div
+        className="button-wrapper"
+      >
+        <Button
+          onClick={[Function]}
+          optClass="danger-alt"
+          type="button"
+        >
+          <button
+            className="btn danger-alt"
+            onClick={[Function]}
+            type="button"
+          >
+            <em>
+              Cancel
+            </em>
+          </button>
+        </Button>
+        <Button
+          onClick={[Function]}
+          optClass="confirmation-approve-btn"
+          type="button"
+        >
+          <button
+            className="btn confirmation-approve-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            <em>
+              Yes
+            </em>
+          </button>
+        </Button>
+      </div>
+    </div>
+  </div>
+</ButtonConfirmation>
+`;
+
+exports[`ButtonConfirmation render handles collapse with confirmation button 1`] = `
+<ButtonConfirmation
+  collapse={true}
+  prompt="Are you sure?"
+>
+  <div
+    className="confirmation-wrapper"
+  >
+    <Button
+      collapse={true}
+      disabled={false}
+      onClick={[Function]}
+      prompt="Are you sure?"
+      type="button"
+    >
+      <button
+        className="btn collapse"
+        onClick={[Function]}
+        type="button"
+      >
+        <em>
+          Delete
+        </em>
+      </button>
+    </Button>
+    <div
+      className="confirmation-overlay"
+      style={
+        Object {
+          "left": "-0px",
+        }
+      }
+    >
+      <em
+        style={
+          Object {
+            "left": "75px",
+          }
+        }
+      />
+      <span
+        className="confirmation-text"
+      >
+        Are you sure?
+      </span>
+      <div
+        className="button-wrapper"
+      >
+        <Button
+          onClick={[Function]}
+          optClass="danger-alt"
+          type="button"
+        >
+          <button
+            className="btn danger-alt"
+            onClick={[Function]}
+            type="button"
+          >
+            <em>
+              Cancel
+            </em>
+          </button>
+        </Button>
+        <Button
+          onClick={[Function]}
+          optClass="confirmation-approve-btn"
+          type="button"
+        >
+          <button
+            className="btn confirmation-approve-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            <em>
+              Yes
+            </em>
+          </button>
+        </Button>
+      </div>
+    </div>
+  </div>
+</ButtonConfirmation>
+`;

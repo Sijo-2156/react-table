@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button displays a button 1`] = `
+<button
+  aria-disabled={true}
+  className="btn lg danger"
+  disabled={true}
+  type="button"
+>
+  <em>
+    Test
+  </em>
+</button>
+`;
+
+exports[`Button displays a disabled button with a loader 1`] = `
+<button
+  aria-disabled={true}
+  className="btn loading"
+  disabled={true}
+  type="button"
+>
+  <Spinner
+    backgroundColor="transparent"
+    color="#fff"
+    loading={true}
+    size="20"
+    type="spinner-circular"
+  />
+  <em>
+    Test
+  </em>
+</button>
+`;
+
+exports[`Button hides text when collapse prop is passed 1`] = `
+<button
+  className="btn collapse"
+  type="button"
+>
+  <em>
+    Test
+  </em>
+</button>
+`;
+
+exports[`Button should have an extra class 1`] = `
+<button
+  className="btn test-class"
+  type="button"
+>
+  <em />
+</button>
+`;
+
+exports[`Button should have extra classes 1`] = `
+<button
+  className="btn lg test-class test-class-2 test-class-3"
+  type="button"
+>
+  <em />
+</button>
+`;
+
+exports[`Button should have mouse event handlers 1`] = `
+<button
+  className="btn"
+  onClick={[Function]}
+  onMouseDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+  onMouseUp={[Function]}
+  type="button"
+>
+  <em>
+    Test
+  </em>
+</button>
+`;
+
+exports[`Button should have touch event handlers 1`] = `
+<button
+  className="btn"
+  onTouchCancel={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  type="button"
+>
+  <em>
+    Test
+  </em>
+</button>
+`;

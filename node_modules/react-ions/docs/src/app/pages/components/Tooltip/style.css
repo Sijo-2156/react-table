@@ -1,0 +1,14 @@
+@import '~react-ions/styles/common/mixins';
+
+.callback-status {
+  @include monospace;
+  display: block;
+}
+
+.truncate-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50px;
+}

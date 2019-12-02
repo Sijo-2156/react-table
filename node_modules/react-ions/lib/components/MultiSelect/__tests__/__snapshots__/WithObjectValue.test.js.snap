@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithObjectValue should render 1`] = `
+<MultiSelect
+  changeCallback={[Function]}
+  disabled={false}
+  displayProp="display"
+  name="example"
+  options={
+    Array [
+      Object {
+        "display": "test 1",
+        "value": "0",
+      },
+      Object {
+        "display": "test 2",
+        "value": "1",
+      },
+      Object {
+        "display": "test 3",
+        "value": "2",
+      },
+      Object {
+        "display": "test 4",
+        "value": "3",
+      },
+    ]
+  }
+  placeholder="Select one or more items"
+  value={
+    Array [
+      "2",
+      "3",
+    ]
+  }
+  valueProp="value"
+>
+  <WrappedSelectField />
+</MultiSelect>
+`;
+
+exports[`WithObjectValue should return a flattened list when passed a list of objects 1`] = `
+Array [
+  "0",
+  "1",
+  "2",
+  "3",
+]
+`;
+
+exports[`WithObjectValue should return an empty list 1`] = `Array []`;
+
+exports[`WithObjectValue should return an inflated list when passed a flatted list 1`] = `
+Array [
+  Object {
+    "display": "test 1",
+    "value": "0",
+  },
+  Object {
+    "display": "test 2",
+    "value": "1",
+  },
+  Object {
+    "display": "test 3",
+    "value": "2",
+  },
+  Object {
+    "display": "test 4",
+    "value": "3",
+  },
+]
+`;

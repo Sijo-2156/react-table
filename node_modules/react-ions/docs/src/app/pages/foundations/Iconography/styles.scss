@@ -1,0 +1,35 @@
+.icon-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-block {
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+  width: 20%;
+  height: 100px;
+  flex-direction: column;
+
+  svg {
+    margin-bottom: 2em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .icon-block {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 530px) and (max-width: 767px) {
+  .icon-block {
+    width: 50%;
+  }
+}
+
+@media (max-width: 529px) {
+  .icon-block {
+    width: 100%;
+  }
+}

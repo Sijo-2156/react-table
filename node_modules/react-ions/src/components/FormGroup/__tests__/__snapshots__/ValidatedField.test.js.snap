@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ValidatedField should have a custom class 1`] = `
+<div
+  className="validated-field custom-class"
+>
+  <Input
+    disabled={false}
+    type="text"
+    value=""
+    valueType="string"
+  />
+</div>
+`;
+
+exports[`ValidatedField should shallow render itself 1`] = `
+<div
+  className="validated-field has-error"
+>
+  <Input
+    disabled={false}
+    error="Error here."
+    type="text"
+    value=""
+    valueType="string"
+  />
+  <span
+    className="has-error__message"
+  >
+    Error here.
+  </span>
+</div>
+`;
