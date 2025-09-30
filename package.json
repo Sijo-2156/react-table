@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "dependencies": {
     "faker": "4.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "react": "16.4.2",
     "react-bootstrap": "0.32.4",
     "react-dom": "16.4.2",
